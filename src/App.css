@@ -1,3 +1,4 @@
+/* BEGIN APP */
 .App {
   text-align: center;
 }
@@ -36,3 +37,69 @@
     transform: rotate(360deg);
   }
 }
+/* END APP */
+
+/* BEGIN GENERAL */
+:root {
+  --color-lightpurple: #CEC2FF;
+  --color-darkpurple: #B3B3F1;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.text--title {
+  font-size: 5vh;
+}
+
+.text--body-large {
+  font-size: 3vh;
+}
+
+.bold {
+  font-weight: bold;
+}
+/* END GENERAL */
+
+/* BEGIN NAVBAR */
+.navbar {
+  background-color: var(--color-lightpurple);
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.navbar--logo {
+  height: 10vh;
+}
+
+.navbar--item {
+  display: inline-block;
+  background-color: var(--color-darkpurple);
+  width: 5vw;
+  height: 3vh;
+  padding: 1.5vh 1vw;
+  margin: 0vh 1vw;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+/* END NAVBAR */
+
+/* BEGIN HOMECLOCK */
+.homeclock {
+  background-color: white;
+  height: 89.5vh;
+  position: relative;
+}
+
+.homeclock--container {
+  background-color: var(--color-lightpurple);
+  border-radius: 40px;
+  position: absolute;
+  top: 22.25vh;
+  left: 25vw;
+  height: 44.5vh;
+  width: 50vw;
+}
+/* END HOMECLOCK */
